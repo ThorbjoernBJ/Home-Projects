@@ -37,7 +37,7 @@ namespace Monster_Hunter_calc
         public double NonElementalC = 0;
         public double CriticalBoostC = 1.25;
         public double MaximumMightC = 0;
-        
+
 
         private void numericUpDown1_ValueChanged(object sender, EventArgs e)
         {
@@ -47,7 +47,7 @@ namespace Monster_Hunter_calc
             AttackBoost.Maximum = 7;
             CriticalEye.Maximum = 7;
             WeaknessExploit.Maximum = 3;
-            MaximumMight.Maximum = 3;
+            MaximumMight.Maximum = 6;
         }
 
         private void CalcButton_Click(object sender, EventArgs e)
@@ -245,7 +245,7 @@ namespace Monster_Hunter_calc
             {
                 SharpnessC = 1.32;
             }
-        
+
             //AttackValues over eller lig med 4
             if (AU >= 4)
             {
@@ -300,15 +300,6 @@ namespace Monster_Hunter_calc
         }
     }
 
-            
-          
+
+
 }
-
-
-
-
-
-
-
-
-        
