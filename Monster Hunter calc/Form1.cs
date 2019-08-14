@@ -37,7 +37,7 @@ namespace Monster_Hunter_calc
         public double NonElementalC = 0;
         public double CriticalBoostC = 1.25;
         public double MaximumMightC = 0;
-        public string = "yeet";
+        public string yeet = "hey der";
 
 
         private void numericUpDown1_ValueChanged(object sender, EventArgs e)
