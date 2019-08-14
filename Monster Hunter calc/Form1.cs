@@ -47,7 +47,7 @@ namespace Monster_Hunter_calc
             AttackBoost.Maximum = 7;
             CriticalEye.Maximum = 7;
             WeaknessExploit.Maximum = 3;
-            MaximumMight.Maximum = 3;
+            MaximumMight.Maximum = 6;
         }
 
         private void CalcButton_Click(object sender, EventArgs e)
