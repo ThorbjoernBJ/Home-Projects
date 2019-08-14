@@ -37,7 +37,6 @@ namespace Monster_Hunter_calc
         public double NonElementalC = 0;
         public double CriticalBoostC = 1.25;
         public double MaximumMightC = 0;
-        public string yeet = "hey der";
 
 
         private void numericUpDown1_ValueChanged(object sender, EventArgs e)
@@ -260,7 +259,7 @@ namespace Monster_Hunter_calc
             //Non Elemental boost
             if (NonElemental.Checked == true)
             {
-                NonElementalC = 1.1;
+                NonElementalC = 1.05;
             }
             else
             {
